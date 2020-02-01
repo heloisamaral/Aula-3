@@ -1,0 +1,30 @@
+/* RESET */
+* {
+    background-color: rgb(11, 91, 97, 0.5) ;
+    
+}
+
+#listaMenu{
+    background-color: blueviolet;
+}
+
+.fundo-azul{
+    background-color: burlywood;
+    }
+
+    header, 
+    footer {
+        color: rgb(255, 230, 0);
+        }
+
+    article:first-child p:last-child {
+        color: white
+    }
+
+    .class-1class-2 {
+        color: pink;
+    }
+
+    .class-1+.class-1class-2 {
+        color: darkcyan;
+    }
