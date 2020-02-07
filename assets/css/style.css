@@ -1,4 +1,12 @@
 /* RESET */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+
 * {
     background-color: rgb(11, 91, 97, 0.5) ;
     
@@ -12,9 +20,8 @@
     background-color: burlywood;
     }
 
-    header, 
-    footer {
-        color: rgb(255, 230, 0);
+    header {
+        color: rgb(255, 230, 1);
         }
 
     article:first-child p:last-child {
@@ -28,3 +35,14 @@
     .class-1+.class-1class-2 {
         color: darkcyan;
     }
+    ul li ul {
+        list-style: none;
+            }
+ol,
+ul[type="circle"] {
+    margin-left:20px;
+}
+
+header ul:first-child {
+float right;
+}
